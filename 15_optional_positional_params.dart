@@ -4,7 +4,7 @@
 
 void main() {
 
-	printCities("New York", "New Delhi", "Sydney");
+	printCities("New York", "New Delhi", "Sydney"); 
 	print("");
 
 	printCountries("USA");  // You can skip the Optional Positional Parameters
@@ -12,7 +12,7 @@ void main() {
 }
 
 // Required Parameters
-void printCities(String name1, String name2, String name3) {
+void printCities(String name1, String name2, String name3) { //required parameters
 
 	print("Name 1 is $name1");
 	print("Name 2 is $name2");
